@@ -1,0 +1,12 @@
+.customBackground {
+  background-color: whitesmoke;
+  padding: 40px 1.75rem;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-color: blueviolet;
+  text-decoration-style: solid;
+}

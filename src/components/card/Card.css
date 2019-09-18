@@ -1,0 +1,29 @@
+.customCard {
+  max-width: 80%;
+  margin-top: 40px;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px #b6b6b6;
+  color: white;
+  background-image: linear-gradient(
+    to right top,
+    #8e4bbb,
+    #844fc7,
+    #7753d4,
+    #6458e0,
+    #475ded
+  );
+  font-family: "Playfair Display", serif;
+}
+
+.customCardImg {
+  margin-bottom: 8px;
+}
+
+.customCardTitle {
+  font-size: 2.5em;
+}
+
+.customCardAuthor {
+  font-size: 0.8em;
+}
