@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React from "react";
+import useFetch from "../helper";
 import Card from "../components/card/Card";
 import "./pages.css";
 
 function BooksPage2() {
-  const [books, setBooks] = useState([]);
-  const url = "http://127.0.0.1:5000/books";
+  // const [books, setBooks] = useState([]);
+  // const url = "http://127.0.0.1:5000/books";
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const response = await axios.get(url);
-      console.log(response.data);
-      setBooks(response.data);
-    };
-    fetchData();
-  }, []);
-
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const response = await axios.get(url);
+  //     console.log(response.data);
+  //     setBooks(response.data);
+  //   };
+  //   fetchData();
+  // }, []);
+  const books = useFetch("books");
   const ulStyle = { padding: 0 };
 
   return (
