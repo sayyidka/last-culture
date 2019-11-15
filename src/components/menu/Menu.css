@@ -1,20 +1,25 @@
 .navbar {
-  background-color: black;
-  box-shadow: 1px 5px 5px #b6b6b6;
+  /* background-color: black; */
+  /* box-shadow: 1px 5px 5px #b6b6b6; */
+}
+
+.menu-container {
+  padding: 0;
 }
 
 a {
-  color: #f5e8f8;
+  color: #6159e6;
 }
 a:hover {
   text-decoration: none;
-  color: #f5e8f8;
+  color: #65617d;
 }
 
 .customTitle {
-  font-family: "Abril Fatface", cursive;
+  font-family: "EB Garamond", serif;
   text-decoration: none;
   font-size: 2rem;
+  color: #6159e6;
 }
 
 .navbar-dark .navbar-toggler {
@@ -28,10 +33,10 @@ a:hover {
 }
 
 .hamburger {
-  color: #f5e8f8;
+  color: #65617d;
 }
 
 .nav-link {
-  font-family: "Lora", serif;
-  color: #f5e8f8;
+  font-family: "Oswald", sans-serif;
+  color: #65617d;
 }

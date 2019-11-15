@@ -1,12 +1,42 @@
-.customBackground {
-  background-color: whitesmoke;
-  padding: 40px 1.75rem;
+/* home page */
+.container {
+  padding: 0;
+}
+.title {
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+  font-size: 4rem;
 }
 
-h1 {
-  font-family: "Lora", serif;
+.paragraph {
+  font-family: "EB Garamond", serif;
+  font-size: 1.5rem;
+}
+
+.explorer-button {
+  border: solid black 2px;
+  padding: 10px 50px;
+  font-family: "Oswald", sans-serif;
   font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+/* pages */
+
+.white-column {
+  padding: 0;
+}
+
+.custom-card-container {
+}
+
+.pageTitle {
+  margin-top: 40px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
   text-decoration: underline;
-  text-decoration-color: blueviolet;
+  text-decoration-color: #6159e6;
   text-decoration-style: solid;
+  margin-bottom: 30px;
 }

@@ -1,8 +1,7 @@
 .customCard {
-  max-width: 80%;
-  margin-top: 40px;
   border-radius: 30px;
-  padding: 20px;
+  margin-bottom: 20px;
+  width: 80%;
   box-shadow: 5px 5px 5px #b6b6b6;
   color: white;
   background-image: linear-gradient(
@@ -13,7 +12,7 @@
     #6458e0,
     #475ded
   );
-  font-family: "Playfair Display", serif;
+  font-family: "EB Garamond", serif;
 }
 
 .customCardImg {
@@ -25,5 +24,9 @@
 }
 
 .customCardAuthor {
-  font-size: 0.8em;
+  font-size: 0.9rem;
+}
+
+.customCardScenario {
+  font-size: 1.2rem;
 }
