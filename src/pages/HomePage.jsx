@@ -1,5 +1,6 @@
 import React from "react";
 import Cover from "../assets/images/cover-image.svg";
+import { Link } from 'react-router-dom'
 import "./pages.css";
 
 export default function HomePage() {
@@ -14,7 +15,7 @@ export default function HomePage() {
               vidéos.
             </p>
             <span className="explorer-button align-self-start">
-              <a href={"#"}>Explorer</a>
+              <Link to="/books">Explorer</Link>
             </span>
           </div>
         </div>
